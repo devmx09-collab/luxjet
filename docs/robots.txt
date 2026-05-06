@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://luxjet.co/sitemap.xml
+Host: luxjet.co
