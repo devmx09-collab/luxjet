@@ -91,6 +91,99 @@
       .wrap{padding:16px}
       .hero-image{border-radius:8px}
     }
+
+/* Make header stand out and sit above the hero image */
+header{
+position:relative;
+z-index:20;
+padding:8px 0;
+align-items:center;
+}
+
+/* Brand (Luxjet) — bigger, bolder, clear spacing /
+.brand {
+font-size:1.4rem;        / desktop default ~22px */
+font-weight:800;
+letter-spacing:0.2px;
+color:var(--text);
+text-decoration:none;
+display:flex;
+align-items:center;
+}
+
+/* If you only show the text (no image), ensure spacing and pointer area */
+.brand span{ display:inline-block; margin-left:6px; }
+
+/* Nav links (Site / Book) — more clickable, larger, pill buttons /
+nav a{
+display:inline-block;
+font-size:1.05rem;       / ~17px */
+font-weight:700;
+color:var(--accent);
+padding:8px 12px;
+border-radius:10px;
+background:rgba(11,102,255,0.06);
+text-decoration:none;
+transition:transform .12s, background .12s;
+margin-left:12px;
+}
+
+/* Hover / focus states */
+nav a:hover, nav a:focus{
+background:rgba(11,102,255,0.12);
+transform:translateY(-2px);
+outline:none;
+}
+
+/* Give header breathing room so it doesn't sit tight on edges / image */
+.wrap { padding-top:20px; }
+
+/* Mobile-specific: slightly larger brand and stacked layout on narrow screens /
+@media (max-width:480px){
+.brand { font-size:1.2rem; }      / ~19px on phones /
+nav a { font-size:1rem; padding:7px 10px; border-radius:8px; margin-left:8px; }
+header { gap:10px; padding:10px 0; }
+/ Prevent nav links from being too close to image */
+.hero-image { margin-top:10px; }
+}
+
+/* Tablet / Desktop: scale up a bit /
+@media (min-width:900px){
+.brand { font-size:1.6rem; }     / ~25px on larger screens */
+nav a { font-size:1.1rem; padding:9px 14px; }
+}
+
+/* Optional: add subtle text shadow if on a busy background */
+.brand, nav a { text-shadow: 0 1px 0 rgba(255,255,255,0.6); }
+
+If you prefer the links visually separated from the hero photo, add a semi-opaque header background:
+
+/* Optional subtle wash so text is always legible on the orange background */
+header {
+background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.85));
+backdrop-filter: blur(4px);
+border-radius:10px;
+padding:10px;
+}
+
+/* When using the header background, reduce wrap padding to compensate */
+.wrap { padding:16px 20px 20px; }
+
+Notes:
+
+Sizes use rem for consistency with your current rules; tweak the numeric values to taste.
+If you want the brand to be an H1 for accessibility/SEO, swap for
+ and adjust CSS (.brand h1{margin:0;font-size:...}).
+Remove the inline style margin-left:10px on the brand span if you move logo image or change spacing.
+Would you like a version converted to Tailwind classes or a tighter size tuned to exact pixel values?
+
+so i would paste it all below this?? @media (max-width:600px){
+      .wrap{padding:16px}
+      .hero-image{border-radius:8px}
+    }
+  </style>
+
+    
   </style>
 </head>
 <body>
