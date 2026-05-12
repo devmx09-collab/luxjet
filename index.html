@@ -89,32 +89,30 @@
       color:var(--card-text);
     }
 
-    /* Generic card style: use a slightly darker yellow and white headings for contrast when needed */
-    section.card{
-      background:var(--card);
-      padding:16px;border-radius:10px;
-      box-shadow:0 6px 18px rgba(12,34,54,0.04);
-      margin-bottom:16px;
-      color:var(--card-text);
-    }
+    /* Headings: default for page (light on dark) /
+h2, h3 {
+margin: 0 0 8px;
+color: var(--text); / headings on the dark page use near-white */
+}
 
-    /* Make headings inside cards clear and high-contrast */
-    h2, h3{
-      margin:0 0 8px;
-      color:var(--card-heading);
-    }
-    h2{font-size:1.05rem}
-    h3{font-size:0.98rem}
+/* Headings inside cards/aside should be dark for contrast on the yellow card /
+section.card h2,
+section.card h3,
+.card h2,
+.card h3,
+.aside h2,
+.aside h3 {
+color: var(--card-text) !important; / dark text on card */
+}
 
-    /* But ensure hero headings remain dark to contrast the yellow hero */
-    .hero h2, .hero h3 { color:var(--card-text); }
+/* Keep hero headings dark explicitly */
+.hero h1,
+.hero h2,
+.hero h3 {
+color: var(--card-text);
+}
 
-    ul{margin:8px 0 0;padding-left:20px}
-    .grid-features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:10px}
-    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;text-align:center}
-
-    /* Small text, captions inside cards: keep readable */
-    .card small, .card .caption, .card .muted { color:rgba(0,0,0,0.7); }
+Drop that into your  and remove the malformed lines you pasted. Reload — headings on the black background will be light, and headings inside cards will be black.
 
     /* Pinterest embed constraints */
     .pin-embed-card,
