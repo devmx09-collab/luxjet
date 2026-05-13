@@ -1,0 +1,111 @@
+<img src="privatejet.png" alt="Private jet over dramatic landscape" class="hero-image" />
+
+<main>
+  <article class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">Private jets to rare & remarkable destinations</h1>
+    <p class="intro muted">Tailored charters and curated itineraries to secluded beaches, alpine airstrips, private vineyards, desert lodges, and cultural gems—fast quotes, vetted operators, and bespoke onboard service.</p>
+
+    <section class="card" aria-labelledby="why-title">
+      <h2 id="why-title">Why choose niche destinations</h2>
+      <p class="muted">Escape crowds, land closer to your experience, access places commercial airlines can’t reach, and turn travel into the destination itself with custom arrival times and on‑board personalization.</p>
+    </section>
+
+    <section class="card" aria-labelledby="featured-title">
+      <h2 id="featured-title">Featured unique destinations</h2>
+      <div class="grid" aria-hidden="false">
+        <div class="destination">
+          <div class="dest-title">Private Island Hops — Caribbean & Pacific</div>
+          <div class="muted">Short hops between island airstrips and private lodges. Ideal for day trips, multi‑island escapes, and yacht transfers.</div>
+        </div>
+        <div class="destination">
+          <div class="dest-title">Alpine Lodges — High‑elevation airstrips</div>
+          <div class="muted">Access ski chalets and mountaintop retreats with precision timing and specialized ground handling.</div>
+        </div>
+        <div class="destination">
+          <div class="dest-title">Remote Vineyards & Estates</div>
+          <div class="muted">Touch down at small fields for intimate tastings and exclusive harvest experiences.</div>
+        </div>
+        <div class="destination">
+          <div class="dest-title">Desert Lodges & Stargazing Camps</div>
+          <div class="muted">Fly into short-runway airstrips for private desert retreats and curated astronomy evenings.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="how-title2">
+      <h2 id="how-title2">How booking works — adapted for niche trips</h2>
+      <p class="muted">Provide dates, passenger and luggage details, preferred experience (e.g., vineyard visit), and target airstrip or region. We return itemized options that include runway suitability, ground handling, and any required permits or ground transfers.</p>
+    </section>
+
+    <section class="card" aria-labelledby="safety-title">
+      <h2 id="safety-title">Safety & operational notes for remote fields</h2>
+      <ul class="muted">
+        <li>Runway length and surface affect aircraft choice—expect turboprops or short‑field capable jets for many sites.</li>
+        <li>Some locations require prior permission to land (PPR) and additional fees—these are included in itemized quotes.</li>
+        <li>Remote ground services may affect turnaround time; plan buffers for weather and daylight arrival when necessary.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="tips-title">
+      <h2 id="tips-title">Trip planning tips</h2>
+      <ul class="muted">
+        <li>Share exact coordinates or the nearest GA airfield early.</li>
+        <li>Confirm ground transfers—4x4, boat, or helicopter links are common for remote lodges.</li>
+        <li>Pack for the local conditions and brief the operator on special equipment (skis, surfboards, wine cases).</li>
+        <li>Ask about customs / immigration options at FBOs for international remote arrivals.</li>
+      </ul>
+    </section>
+
+    <div style="margin-top:12px">
+      <a class="cta" href="http://book.luxjet.co/" target="\_blank" rel="noopener">Request a curated itinerary & quote</a>
+    </div>
+  </article>
+
+  <aside class="aside">
+    <h2 style="color:var(--gold)">Aircraft & experience match</h2>
+    <div style="margin-top:8px" class="muted">
+      Match aircraft to runway and comfort needs:
+      <ul>
+        <li><strong>Short fields:</strong> Turboprops & light twins</li>
+        <li><strong>Regional luxury:</strong> Midsize / super‑midsize jets</li>
+        <li><strong>Long-haul remote transfers:</strong> Heavy / long‑range jets or VIP airliners</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:12px;padding:12px">
+      <h3 style="margin:0;color:var(--gold)">Sample niche itineraries</h3>
+      <ol class="muted" style="margin:8px 0 0;padding-left:18px">
+        <li>Weekend: Miami → Private Bahamas atoll → Miami (turboprop & yacht transfer).</li>
+        <li>Five‑day: Geneva → Alpine lodge → regional airstrip → Geneva (short‑field jet).</li>
+        <li>Wine escape: London → Private vineyard airstrip in France → Bordeaux (light jet + ground convoy).</li>
+      </ol>
+    </div>
+
+    <p class="muted" style="margin-top:12px">When you book through our site, these are affiliate links; we may earn a commission at no additional cost to you.</p>
+  </aside>
+</main>
+
+<section style="margin-top:18px">
+  <div class="card">
+    <h2 style="margin-top:0;color:var(--gold)">Onboard personalization</h2>
+    <p class="muted">Custom menus, branded arrival amenities, gear handling, and tailored cabin layouts—bring your itinerary to life.</p>
+  </div>
+
+  <div class="card" style="margin-top:12px">
+    <h2 style="margin-top:0;color:var(--gold)">Pricing expectations</h2>
+    <p class="muted">Itemized quotes include positioning, runway fees, ground handling, permits, and relevant surcharges for remote operations—always request a breakdown.</p>
+  </div>
+
+  <div class="card" style="margin-top:12px">
+    <h2 style="margin-top:0;color:var(--gold)">Get started</h2>
+    <p class="muted">Tell us your destination idea, preferred dates, passenger count, and any special requests.</p>
+    <p>
+      <a class="cta" href="http://book.luxjet.co/" target="\_blank" rel="noopener">Request a quote</a>
+      <a class="cta" href="mailto:devmx@gmail.com?subject=Curated%20Itinerary" style="margin-left:12px;">Email us</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="muted">Contents copyright 2026 luxjet.co</div>
+</footer>
